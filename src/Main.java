@@ -1,8 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        Fighter marc = new Fighter("Marc" , 15 , 100, 90, 50);
-        Fighter alex = new Fighter("Alex" , 10 , 95, 100, 50);
-        Ring r = new Ring(marc,alex , 90 , 100);
-        r.run();
+        Liste<Integer> l = new Liste<>(5);
+        l.add(1);
+        l.add(2);
+        l.add(3);
+        l.add(4);
+        l.add(5);
+        l.add(6);
+        l.add(7);
+        l.add(8);
+        l.add(9);
+
+
+        var a=l.toArray();
+        //System.out.println(a[2]);
     }
+
+
 }
